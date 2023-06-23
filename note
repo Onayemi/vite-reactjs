@@ -1,0 +1,30 @@
+npm create vite@latest
+npm install react-bootstrap bootstrap
+
+npm install @mui/material @emotion/react @emotion/styled
+
+import { TextField }from '@mui/material/TextField';
+
+<TextField></TextField>
+
+npm install @material-ui/icons
+
+import SendIcon from '@mui/icons-material/Send';
+import DeleteIcon from '@mui/icons-material/Delete';
+
+<Button 
+endIcon={<sendIcon />}
+startIcon={<sendIcon />}
+variant='contained'
+color='primary'
+size='medium'
+>
+Click me
+</Button>
+
+-------------------
+npm i react-redux @reduxjs/toolkit react-datepicker 
+react-router-dom@6 @mui/material @emotion/react @emotion/styled 
+@mui/icons-material @mui/x-data-grid @nivo/core @nivo/bar @nivo/geo @nivo/pie
+
+npm i react-datepicker@4.8.0
